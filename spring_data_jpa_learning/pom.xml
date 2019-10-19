@@ -114,6 +114,13 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+
+        <!--解决高版本jdk(9及以上)报错 java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException-->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.0</version>
+        </dependency>
     </dependencies>
 
 </project>
